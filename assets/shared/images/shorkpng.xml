@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shorkpng.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bounce0000" x="20" y="20" width="1600" height="1050" frameX="-1" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0001" x="20" y="20" width="1600" height="1050" frameX="-1" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0002" x="1630" y="20" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0003" x="1630" y="20" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0004" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0005" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0006" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0007" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0008" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0009" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0010" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0011" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0012" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+	<SubTexture name="bounce0013" x="20" y="1080" width="1600" height="1050" frameX="0" frameY="0" frameWidth="1601" frameHeight="1050"/>
+</TextureAtlas>

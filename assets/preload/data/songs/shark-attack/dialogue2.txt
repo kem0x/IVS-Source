@@ -1,0 +1,10 @@
+:musicloop:bgms/Artemis
+:ArtemisTalking1:Crystal, you idiot! Can't you see that Bao is trying her best?
+:soundoverwrite:Bao_06
+:BaoTalking4:Artemis…?
+:ArtemisTalking2:I've been cheering you on from the crowd, but there's no way I'm letting this dumbass upstage you. Don't worry, Bao. I'm here to win this! 
+:soundoverwrite:Bao_07
+:BaoTalking4:But you’ll lose your spot!
+:ArtemisTalking1:Lose my spot... to this kid?! Crystal Blitz, you’re going down!.
+:setNextDialogueFileName:na
+:restart:

@@ -1,0 +1,8 @@
+:soundoverwrite:Bao_05
+:disableSkip:
+:makeGraphicBlack:
+:BaoTalking4:Whoa… I feel like I’m gonna pass out…
+:playMP4:cut
+:setNextDialogueFileName:dialogue2
+:noone:After they woke up...
+:restart:

@@ -1,0 +1,7 @@
+rude -4 -13
+idleLoop -4 -10
+idle 0 0
+singDOWN 4 -24
+singRIGHT -4 -11
+singLEFT 8 -13
+singUP 3 6

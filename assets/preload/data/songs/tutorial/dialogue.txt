@@ -1,0 +1,52 @@
+:musicloop:bgms/Kuna
+:bg:slides/1
+:soundoverwrite:NarratorIntro1
+:noone:Narrator: Ah!! If it ain't the main characters of the story. I wonder what they are doing right now.
+:bg:slides/2
+:soundoverwrite:NarratorIntro2
+:noone:Narrator: Oh wait... These are the wrong main characters. My bad..
+:bg:slides/3
+:soundoverwrite:NarratorIntro3
+:noone:Narrator: Ah here we go! The main character of the story. Let's see what he is up to!
+:soundoverwrite:FNF_Mod_Crystal_Lines_1
+:noone-crystal:Crystal: Aw man.. I'm hungry and i can really go for some nuggies..
+:bg:slides/4
+:soundoverwrite:FNF_Mod_Crystal_Lines_2
+:noone-crystal:I forgot that i spent all my savings on vtubers. God damn it, why do i have to be so damn supportive.
+:bg:slides/5
+:soundoverwrite:FNF_Mod_Crystal_Lines_3
+:noone-crystal-auto:Maybe i should work for mcdonalds and just get free nuggies that wa-
+:bg:slides/6
+:sound:posterSlap
+:soundoverwrite:FNF_Mod_Crystal_Lines_4
+:noone-crystal-auto:Wah!
+:bg:slides/7
+:sound:posterRemove
+:soundoverwrite:FNF_Mod_Crystal_Lines_5
+:noone-crystal-auto:Aw come on, I lose my money and now i get slapped by a piece of pape-
+:bgOverlay:slides/8
+:sound:SHOCKED
+:shakeOverlay:0.005,0.5
+:soundoverwrite:FNF_Mod_Crystal_Lines_6
+:noone-crystal:WHOA?!
+:overlayHide:
+:bg:slides/9
+:soundoverwrite:FNF_Mod_Crystal_Lines_7
+:noone-crystal:Well.. this solves all my problems. So why not!
+:bgFadeOut:2
+:midText:As crystal arrived to the showdown, he heard a familiar voice coming from the greenroom
+:midTextFadeOut:1
+:bghide:
+:bgFadeIn:1
+:soundoverwrite:FNFDialouge_Mod_Crystal_Lines_1
+:CrystalTalking:Oh! Hey Kuna!. I knew I heard a familiar voice
+:soundoverwrite:Kuna_First_Line_01
+:KunaTalk1:Oh hey! What are you doing here? Didn’t you tell me that you never wanted to sing?
+:soundoverwrite:FNFDialouge_Mod_Crystal_Lines_2
+:CrystalTalking2-auto:A-
+:soundoverwrite:Kuna_Second_Line_01
+:KunaTalk1:So I’m guessing you’re just here for the money? But I thought you don’t know how to sing.
+:soundoverwrite:FNFDialouge_Mod_Crystal_Lines_3
+:CrystalTalking3:Yeahhhh
+:soundoverwrite:Kuna_Third_Line_01
+:KunaTalk1:*sighs* alright, let’s start with the basics.

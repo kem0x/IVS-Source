@@ -1,0 +1,11 @@
+:musicloop:bgms/Bao
+:soundoverwrite:Bao_03
+:BaoTalking2:Wow, that was amazing!
+:soundoverwrite:Bao_03a
+:BaoTalking2:I never knew singing against somebody could take so much energy.
+:soundoverwrite:FNFDialouge_Mod_Crystal_Lines_5
+:CrystalTalking4:Ahhh… I’m exhausted already. Can we take a break?
+:soundoverwrite:Bao_04
+:BaoTalking3:Coooome on! The show is just starting!
+:soundoverwrite:Kuna_Fourth_Line_01
+:KunaTalk1:Yeah Blitz, show her what you got! 

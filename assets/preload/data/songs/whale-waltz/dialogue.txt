@@ -1,0 +1,7 @@
+:musicloop:bgms/Bao
+:soundoverwrite:Bao_01
+:BaoTalking3:Ooo, I’ve never seen you around here before. What’s your name?
+:soundoverwrite:FNFDialouge_Mod_Crystal_Lines_4
+:CrystalTalking:Oh s**t, it’s Crystal Blitz. Nice to meet you! 
+:soundoverwrite:Bao_02
+:BaoTalking1:Ohhhh.. I see… well, let’s do our best!

@@ -1,0 +1,39 @@
+:musicloop:bgms/Ending
+:bg:slides/10
+:soundoverwrite:NarratorEnding1_01
+:noone:Narrator: After Crystal won the fight, he felt a sense of relief. His goal of getting those nuggies seems to be getting closer after all. 
+:bg:slides/11
+:sound:Picking-up-Bao-SFX
+:soundoverwrite:NarratorEnding2_01
+:noone-auto:Narrator: As for Artemis, she decides to stay silent as she is picking up her friend from the floor…
+:bg:slides/12
+:noone-auto:Narrator: and walks away in defeat.
+:bg:slides/13
+:soundoverwrite:NarratorEnding3_01
+:noone:Narrator: Suddenly Kuna decides to tackle Crystal out of excitement and pure happiness. She is proud of her little brother getting his first win of the showdown.
+:bg:slides/14
+:soundoverwrite:NarratorEnding4_01
+:noone-auto:Narrator: But...
+:musicstop:
+:sound:Spotlight
+:bg:slides/15
+:soundoverwrite:NarratorEnding5_01
+:sound:Drama
+:noone:Narrator: They forget that this isn’t over…
+:soundoverwrite:NarratorEnding6_01
+:noone-auto:Narrator: It will be a long journey…
+:soundoverwrite:NarratorEnding7_01
+:noone-auto:Narrator: Filled with frightful opponents 
+:soundoverwrite:NarratorEnding8_01
+:noone-auto:Narrator: A journey where you meet old friends….
+:soundoverwrite:NarratorEnding9_01
+:noone-auto:Narrator: In the end,
+:soundoverwrite:NarratorEnding10_01
+:noone-auto:Narrator: this journey will be rewarding
+:soundoverwrite:NarratorEnding11_01
+:noone-auto:Narrator: and you can finally…
+:soundoverwrite:NarratorEnding12_01
+:noone-auto:Narrator: Eat those nuggies.
+:sound:Lights_Shut_off
+:bgFadeOut:0.1
+:goToMainMenu:

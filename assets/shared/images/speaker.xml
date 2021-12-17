@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speaker.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="speaker0000" x="0" y="0" width="600" height="800" frameX="-1" frameY="-2" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0001" x="0" y="0" width="600" height="800" frameX="-1" frameY="-2" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0002" x="600" y="0" width="600" height="800" frameX="0" frameY="-3" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0003" x="600" y="0" width="600" height="800" frameX="0" frameY="-3" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0004" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0005" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0006" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0007" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0008" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0009" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0010" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0011" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0012" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+	<SubTexture name="speaker0013" x="1200" y="0" width="600" height="800" frameX="-2" frameY="0" frameWidth="602" frameHeight="803"/>
+</TextureAtlas>

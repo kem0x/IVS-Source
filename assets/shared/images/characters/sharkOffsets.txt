@@ -1,0 +1,9 @@
+bite 121 -126
+idle 57 202
+getUP 86 214
+singDOWN 67 -133
+singRIGHT 36 197
+singUP 38 197
+singLEFT 40 205
+crash 180 409
+scream 62 208
