@@ -1391,6 +1391,60 @@ class OffsetMenu extends Option
 	}
 }
 
+class BorderFps extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function left():Bool
+	{
+		FlxG.save.data.fpsBorder = !FlxG.save.data.fpsBorder;
+		display = updateDisplay();
+		return true;
+	}
+
+	public override function right():Bool
+	{
+		left();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "FPS Border: < " + (!FlxG.save.data.fpsBorder ? "off" : "on") + " >";
+	}
+}
+
+class DisplayMemory extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function left():Bool
+	{
+		FlxG.save.data.memoryDisplay = !FlxG.save.data.memoryDisplay;
+		display = updateDisplay();
+		return true;
+	}
+
+	public override function right():Bool
+	{
+		left();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Memory Display: < " + (!FlxG.save.data.memoryDisplay ? "off" : "on") + " >";
+	}
+}
+
 class OffsetThing extends Option
 {
 	public function new(desc:String)
@@ -1709,7 +1763,7 @@ class LockWeeksOption extends Option
 			return true;
 		}
 		FlxG.save.data.weekUnlocked = 1;
-		//StoryMenuState.weekUnlocked = [true, true];
+		// StoryMenuState.weekUnlocked = [true, true];
 		confirm = false;
 		trace('Weeks Locked');
 		display = updateDisplay();

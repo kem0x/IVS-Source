@@ -111,9 +111,6 @@ class Note extends FlxSprite
 		if (this.strumTime < 0)
 			this.strumTime = 0;
 
-		if (!inCharter)
-			y += FlxG.save.data.offset + PlayState.songOffset;
-
 		this.noteData = noteData;
 
 		var daStage:String = ((PlayState.instance != null && !PlayStateChangeables.Optimize) ? PlayState.Stage.curStage : 'stage');
@@ -229,7 +226,7 @@ class Note extends FlxSprite
 
 		if (isSustainNote && prevNote != null)
 		{
-			noteYOff = Math.round(-stepHeight + swagWidth * 0.5);
+			noteYOff = Math.round(-stepHeight + swagWidth * 0.5) + FlxG.save.data.offset + PlayState.songOffset;
 
 			noteScore * 0.2;
 			alpha = 0.6;

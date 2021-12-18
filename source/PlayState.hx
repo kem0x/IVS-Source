@@ -837,6 +837,10 @@ class PlayState extends MusicBeatState
 			Debug.logTrace("Removed " + toBeRemoved.length + " cuz of start time");
 		}
 
+		for (i in 0...unspawnNotes.length)
+			if (unspawnNotes[i].strumTime < startTime)
+				unspawnNotes.remove(unspawnNotes[i]);
+
 		trace('generated');
 
 		// add(strumLine);
@@ -1420,10 +1424,6 @@ class PlayState extends MusicBeatState
 		trace("pitched inst and vocals to " + songMultiplier);
 		#end
 
-		for (i in 0...unspawnNotes.length)
-			if (unspawnNotes[i].strumTime < startTime)
-				unspawnNotes.remove(unspawnNotes[i]);
-
 		if (needSkip)
 		{
 			skipActive = true;
@@ -1860,6 +1860,9 @@ class PlayState extends MusicBeatState
 
 	function resyncVocals():Void
 	{
+		if (endingSong)
+			return;
+
 		vocals.stop();
 		FlxG.sound.music.stop();
 
@@ -1939,7 +1942,7 @@ class PlayState extends MusicBeatState
 
 		if (unspawnNotes[0] != null)
 		{
-			if (unspawnNotes[0].strumTime - Conductor.songPosition < 14000 * songMultiplier)
+			if (unspawnNotes[0].strumTime - Conductor.songPosition < 14000)
 			{
 				var dunceNote:Note = unspawnNotes[0];
 				notes.add(dunceNote);
@@ -1966,8 +1969,7 @@ class PlayState extends MusicBeatState
 					dunceNote.cameras = [camHUD];
 				}
 
-				var index:Int = unspawnNotes.indexOf(dunceNote);
-				unspawnNotes.splice(index, 1);
+				unspawnNotes.remove(dunceNote);
 				currentLuaIndex++;
 			}
 		}
@@ -2158,21 +2160,19 @@ class PlayState extends MusicBeatState
 		// reverse iterate to remove oldest notes first and not invalidate the iteration
 		// stop iteration as soon as a note is not removed
 		// all notes should be kept in the correct order and this is optimal, safe to do every frame/update
+		var balls = notesHitArray.length - 1;
+		while (balls >= 0)
 		{
-			var balls = notesHitArray.length - 1;
-			while (balls >= 0)
-			{
-				var cock:Date = notesHitArray[balls];
-				if (cock != null && cock.getTime() + 1000 < Date.now().getTime())
-					notesHitArray.remove(cock);
-				else
-					balls = 0;
-				balls--;
-			}
-			nps = notesHitArray.length;
-			if (nps > maxNPS)
-				maxNPS = nps;
+			var cock:Date = notesHitArray[balls];
+			if (cock != null && cock.getTime() + 1000 < Date.now().getTime())
+				notesHitArray.remove(cock);
+			else
+				balls = 0;
+			balls--;
 		}
+		nps = notesHitArray.length;
+		if (nps > maxNPS)
+			maxNPS = nps;
 
 		if (FlxG.keys.justPressed.NINE)
 			iconP1.swapOldIcon();
@@ -2850,15 +2850,6 @@ class PlayState extends MusicBeatState
 								daNote.clipRect = swagRect;
 							}
 						}
-
-						if (daNote.isParent)
-						{
-							for (i in 0...daNote.children.length)
-							{
-								var slide = daNote.children[i];
-								slide.y = daNote.y - slide.height;
-							}
-						}
 					}
 					else
 					{
@@ -3237,9 +3228,9 @@ class PlayState extends MusicBeatState
 				dialogueFileName = "ending";
 			}
 			else if (SONG.songId == "shark-attack" && dialogueFileName == "ending")
-				{
-					dialogueFileName = "dialogue";
-				}
+			{
+				dialogueFileName = "dialogue";
+			}
 		}
 
 		endingSong = true;
@@ -4402,7 +4393,8 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		if (FlxG.sound.music.time > Conductor.rawPosition + 20 || FlxG.sound.music.time < Conductor.rawPosition - 20)
+		if (Conductor.songPosition * songMultiplier > FlxG.sound.music.time + 25
+			|| Conductor.songPosition * songMultiplier < FlxG.sound.music.time - 25)
 		{
 			resyncVocals();
 		}
